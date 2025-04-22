@@ -9,16 +9,5 @@ startCommand:
     type: object
     required: []
     properties: {}
-  commandFunction:
-    type: function
-    parameters:
-      type: object
-      properties:
-        video:
-          type: string
-          description: "YouTube video URL to transcribe"
-      required: ["video"]
-    returns:
-      type: string
-      description: "The transcribed text from the video"
+  commandFunction: transcribe_video
 
