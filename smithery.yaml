@@ -1,12 +1,8 @@
 # smithery.yaml for youtube_transcriptor
 name: youtube_transcriptor
 startCommand:
+  type: stdio
   command: python
   args:
     - youtube.py
-    - --host
-    - 0.0.0.0
-    - --port
-    - "8080"
-port: 8080
-healthcheck: /health
+
