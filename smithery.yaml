@@ -1,5 +1,5 @@
 # smithery.yaml for youtube_transcriptor
 name: youtube_transcriptor
-entrypoint: python youtube.py --host 0.0.0.0 --port 8080
+startCommand: python youtube.py --host 0.0.0.0 --port 8080
 port: 8080
 healthcheck: /health
