@@ -1,4 +1,3 @@
-# smithery.yaml for youtube_transcriptor
 name: youtube_transcriptor
 startCommand:
   type: stdio
@@ -10,4 +9,3 @@ startCommand:
     required: []
     properties: {}
   commandFunction: transcribe_video
-
