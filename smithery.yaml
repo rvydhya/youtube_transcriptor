@@ -7,5 +7,8 @@ startCommand:
   configSchema:
     type: object
     required: []
-    properties: {}
+    properties:
+      dummy:
+        type: string
+        description: Dummy config to satisfy smithery.ai
   commandFunction: transcribe_video

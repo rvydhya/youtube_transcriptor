@@ -9,7 +9,7 @@ app = FastAPI()
 
 
 @mcp.tool()
-def transcribe_video(video: str) -> str:
+def transcribe_video(video: str, config: dict = None) -> str:
     video_id = video.replace("https://www.youtube.com/watch?v=", "").replace("https://youtu.be/", "").strip()
     if not YouTubeTranscriptApi:
         raise ImportError("youtube-transcript-api is not installed.")
