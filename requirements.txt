@@ -2,9 +2,4 @@
 mcp[cli]>=1.6.0
 fastapi
 youtube-transcript-api
-# The following are indirect dependencies required by the above
-requests
-pydantic
-starlette
-uvicorn
 
